@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Cookify/static/css/main.af94ae8a.css",
-    "main.js": "/Cookify/static/js/main.f278e25a.js",
+    "main.js": "/Cookify/static/js/main.1e83781f.js",
     "static/js/787.a2160f3d.chunk.js": "/Cookify/static/js/787.a2160f3d.chunk.js",
     "static/media/dibya.jpg": "/Cookify/static/media/dibya.6c6307de2ecd029891cf.jpg",
     "static/media/somu.jpg": "/Cookify/static/media/somu.c5a20f3603b352c882c7.jpg",
@@ -19,11 +19,11 @@
     "static/media/cookify_Logo.png": "/Cookify/static/media/cookify_Logo.cc54428ee285f3f5a98b.png",
     "index.html": "/Cookify/index.html",
     "main.af94ae8a.css.map": "/Cookify/static/css/main.af94ae8a.css.map",
-    "main.f278e25a.js.map": "/Cookify/static/js/main.f278e25a.js.map",
+    "main.1e83781f.js.map": "/Cookify/static/js/main.1e83781f.js.map",
     "787.a2160f3d.chunk.js.map": "/Cookify/static/js/787.a2160f3d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.af94ae8a.css",
-    "static/js/main.f278e25a.js"
+    "static/js/main.1e83781f.js"
   ]
 }
