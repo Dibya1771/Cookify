@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&display=swap");
+
+.container {
+  margin-left: 3.3rem;
+
+  display: grid;
+  padding-top: 2rem;
+  /* grid-template-columns: repeat(5, 1fr); */
+  grid-template-columns: repeat(auto-fit, minmax(12.5rem, 1fr));
+
+  /* grid-template-columns: repeat(5, minmax(12.5rem, 1fr)); */
+  grid-gap: 1rem;
+  justify-content: space-between;
+  min-height: 20vh;
+}
+
+.card {
+  border-radius: 1rem;
+  /* background: rgba(112, 112, 112, 0.558);
+  backdrop-filter: blur(4px); */
+  background-color: rgba(252, 241, 241, 0.252);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  width: 12.5rem;
+  height: 17.75rem;
+  padding: 0.313rem;
+  cursor: pointer;
+}
+
+.card img {
+  width: 90%;
+  margin-top: 0.5rem;
+  margin-left: 0.65rem;
+  margin-right: 0.65rem;
+  height: 70%; /* Adjust the image height as needed */
+  object-fit: cover; /* Ensure the image fills the card */
+  border-radius: 1rem;
+}
+
+.card h3 {
+  font-size: 1.125rem;
+  margin-top: 1rem;
+  text-align: center;
+  color: #000;
+}
+
+/* .content img {
+  width: 100%;
+  height: 47.5rem;
+} */
+
+#n_search {
+  margin: auto;
+  margin-bottom: 1.4rem;
+  margin-top: 12rem;
+  display: flex;
+  justify-content: center;
+  width: 15rem;
+  align-items: center;
+  background-color: lightgray;
+  padding: 0.625rem;
+  border-radius: 2rem;
+  border-width: 0;
+  z-index: 10;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 1.25rem;
+}
+.search-container {
+  position: relative; /* Add position relative to enable pseudo-element positioning */
+  background-image: url("https://img.myloview.com/stickers/stone-cooking-banner-kitchen-board-with-vegetables-and-spices-top-view-free-copy-space-700-192806530.jpg");
+  height: 22rem;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.625rem;
+  margin-bottom: 1.25rem;
+  margin-top: -5rem;
+}
+
+.search-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.5; /* Adjust the opacity as desired */
+}
+
+.search-container p {
+  text-align: center;
+  margin: 0;
+  z-index: 1; /* Ensure the text appears above the pseudo-element */
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.pagination button {
+  margin: 0 0.313rem;
+  padding: 0.313rem 0.625rem;
+  background-color: lightgray;
+  border: none;
+  border-radius: 0.313rem;
+  cursor: pointer;
+}
+
+.pagination button.active {
+  background-color: gray;
+  color: white;
+}
+
+#n_icon {
+  /* color:white; */
+  z-index: 10;
+  font-size: 2.6rem;
+  margin-top: 11.8rem;
+  margin-left: -2.5rem;
+  /* background-color:rgb(190, 117, 117); */
+  border-radius: 2rem;
+  padding: 0.375rem;
+  color: #000;
+  cursor: pointer;
+}
+
+.ss_typing-animation {
+  /* margin-top: -15rem; */
+  font-size: 1.1rem;
+  font-family: "courier";
+  font-weight: 600;
+  z-index: 999;
+  color: white;
+}
+.ss_ss_ss {
+  margin-top: -3rem;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#n_header {
+  margin-left: 4vw;
+}
+
+@media screen and (max-width: 539px) {
+  .container {
+    margin-left: 1.5rem;
+    grid-template-columns: repeat(2, 1fr);
+    /* Display in two columns on smaller screens */
+
+    font-size: x-small;
+    gap: 0.6rem;
+  }
+  .card {
+    width: 9.2rem;
+    height: 14rem;
+  }
+  .card img {
+    width: 86%;
+  }
+}
+@media screen and (max-width: 358px) {
+  .container {
+    zoom: 80%;
+  }
+  .search-container p {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 275px) {
+  .container {
+    margin-left: 32%;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  #n_search {
+    width: 10rem;
+  }
+  #n_header {
+    margin-left: 27%;
+  }
+}
+@media screen and (max-width: 250px) {
+  .container {
+    /* margin-left: 32%; */
+    zoom: 70%;
+  }
+}

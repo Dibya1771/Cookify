@@ -1,0 +1,190 @@
+.ss_field {
+  margin-left: 3rem;
+  display: grid;
+  margin-bottom: 2rem;
+  width: 90%;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-gap: 1rem;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.304);
+  border-radius: 1rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.ss_vector {
+  /* height:100vh; */
+  width: 50%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 0;
+}
+
+.ss_vector_img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 10%;
+  width: 85%;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.image1 {
+  animation-name: superman-fly-right;
+  animation-delay: -4s; /* Adjusted delay to -4s */
+}
+
+.image2 {
+  animation-name: superman-fly-right;
+  animation-delay: -2s;
+}
+
+@keyframes superman-fly-right {
+  from {
+    transform: translateY(-300vh);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(200vh);
+  }
+}
+
+.ss_right {
+  margin-left: 50%;
+}
+.ss_set h1 {
+  font-weight: 550;
+  text-align: center;
+  font-size: 1.875rem;
+  margin-left: 3.5rem;
+  margin-right: auto;
+  margin-bottom: 2rem;
+}
+
+.ss_set #linemovement {
+  width: 8.5rem;
+  height: 0.18rem;
+  margin-left: 38%;
+
+  margin-top: -1rem;
+  margin-bottom: 1rem;
+  background-color: rgb(228, 36, 11);
+  animation: linemovement-animation 2s linear infinite;
+}
+
+@keyframes linemovement-animation {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(100%);
+  }
+}
+.ss_field img {
+  width: 9.375rem;
+  height: 9.375rem;
+  border-radius: 0.8rem;
+  object-fit: cover;
+}
+.ss_field h2 {
+  margin-top: 1.5rem;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.ss_fav {
+  display: flex;
+  /* flex-direction: column; */
+  /* grid-template-columns:1fr 1.5fr; */
+  margin: 5rem;
+  height: 100vh;
+}
+
+#ss_remove {
+  margin-top: 3.5rem;
+}
+
+.react-rater-star.is-active {
+  color: #ffbf00 !important;
+  text-shadow: black 0.5px 0.5px 1px;
+}
+.react-rater-star {
+  color: #cbcbcb;
+  text-shadow: black 0.5px 0.5px 1px;
+}
+.react-rater-star.will-be-active {
+  color: #ffd900 !important;
+  text-shadow: black 0.5px 0.5px 1px;
+}
+
+@media screen and (max-width: 900px) {
+  .ss_fav {
+    zoom: 70%;
+    min-height: 176vh;
+  }
+}
+@media screen and (max-width: 640px) {
+  .ss_fav {
+    zoom: 41.8%;
+    min-height: 177.5vh;
+  }
+}
+@media screen and (max-width: 400px) {
+  .ss_fav {
+    flex-direction: row-reverse;
+    margin-top: 28rem;
+    height: 10vh;
+  }
+  .ss_field {
+    width: 184vw;
+  }
+  .ss_vector {
+    width: 18%;
+    top: 10%;
+  }
+  .ss_vector_img {
+    width: 250%;
+  }
+  @keyframes superman-fly-right {
+    from {
+      transform: translateX(-300vw);
+    }
+    50% {
+      transform: translateX(50vw);
+    }
+    to {
+      transform: translateX(300vw);
+    }
+  }
+  .ss_right {
+    /* margin: 10rem 0rem -6rem -3rem; */
+    height: 100vh;
+    margin-top: 10%;
+    /* padding-bottom: 10rem; */
+    position: fixed;
+    overflow-y: scroll;
+    /* overflow-x: hidden; */
+    /* width:53%; */
+    /* width: 46.5rem; */
+  }
+
+  .ss_right::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 310px) {
+  .ss_fav {
+    flex-direction: row-reverse;
+    margin-top: 25rem;
+    height: 10vh;
+  }
+  .ss_vector_img {
+    width: 270%;
+  }
+}

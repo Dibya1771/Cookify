@@ -1,0 +1,164 @@
+#S_wrap #S_form-wrap p {
+  font-size: 1.5rem;
+}
+#S_wrap {
+  width: 33.125rem;
+  margin: 1.25rem auto;
+  height: 100vh;
+}
+
+#S_wrap h1 {
+  margin-bottom: 1.25rem;
+  text-align: center;
+  font-size: 2.188rem;
+  font-family: tahoma;
+  color: rgb(13, 13, 13);
+}
+
+#S_form-wrap {
+  overflow: hidden;
+  height: 27.938rem;
+  position: relative;
+  top: 0px;
+  transition: all 1s ease-in-out 0.3s;
+}
+#S_form-wrap:before {
+  content: "";
+  position: absolute;
+  bottom: 8rem;
+  left: 0px;
+  background: url("../Images/before.png");
+  width: 33.125rem;
+  height: 19.813rem;
+  /* width: 20%;
+  height: 18%; */
+}
+#S_form-wrap:after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  background: url("../Images/after.png");
+  width: 33.125rem;
+  height: 16.188rem;
+}
+
+#S_form-wrap.hide:after,
+#S_form-wrap.hide:before {
+  display: none;
+}
+
+#S_form-wrap:hover {
+  height: 48.563rem;
+  top: -12.5rem;
+}
+/* #S_wrap #S_form-wrap */
+#S_S_form {
+  background: white;
+  position: relative;
+  top: 12.5rem;
+  overflow: hidden;
+  height: 12.5rem;
+  width: 25rem;
+  margin: 0px auto;
+  padding: 1.125rem;
+  border: 0.063rem solid white;
+  border-right: 0.188rem;
+  transition: all 1s ease-in-out 0.3s;
+}
+#S_form-wrap:hover #S_S_form {
+  height: 33.125rem;
+}
+/* #S_wrap #S_form-wrap form */
+.S_label {
+  margin: 0.688rem 1.25rem 0 0;
+  font-size: 0.938rem;
+  color: gray;
+  text-transform: uppercase;
+}
+
+.S_inp_s,
+.s_textarea {
+  font: 0.875rem normal uppercase, arial, serif;
+  color: rgb(121, 108, 108);
+  width: 22.5rem;
+  height: 2.313rem;
+  padding: 0px 0.625rem;
+  margin: 0 0 0.625rem 0;
+  border: 0.063rem solid #f8f5f1;
+  border-radius: 0.313rem;
+  background: rgba(252, 245, 245, 0.886);
+}
+
+.s_textarea {
+  height: 5rem;
+  padding-top: 0.875rem;
+}
+
+.s_textarea:focus,
+.S_inp_s:focus {
+  background: rgb(252, 245, 245);
+}
+
+#S_form-wrap #S_sub {
+  position: relative;
+  margin-left: 6.3rem;
+  font-family: tahoma;
+  font-size: 1.5rem;
+  color: #fff;
+  width: 40%;
+  text-align: center;
+  opacity: 0;
+  background: #4385a99d;
+  cursor: pointer;
+  border-radius: 0.625rem;
+  transition: opacity 0.7s ease-in-out 0s;
+  padding: 0.313rem 0.5rem;
+  border: 1px solid rgb(128, 128, 128);
+  box-sizing: border-box;
+}
+
+#S_form-wrap:hover #S_sub {
+  z-index: 1;
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out 1.3s;
+}
+
+#S_form-wrap #S_S_form {
+  position: relative;
+  top: 12.5rem;
+  overflow: hidden;
+  height: 12.5rem;
+  width: 25rem;
+  margin: 0px auto;
+  padding: 1.25rem;
+  border: 0.063rem solid white;
+  border-radius: 0.313rem;
+  transition: all 1s ease-in-out 0.3s;
+}
+
+#S_form-wrap:hover #S_S_form {
+  height: 33.125rem;
+}
+@media screen and (max-width: 640px) {
+  #S_wrap {
+    min-height: 110vh;
+  }
+}
+@media screen and (max-width: 550px) {
+  #S_wrap {
+    margin-top: 13.7vh;
+    zoom: 70%;
+  }
+}
+@media screen and (max-width: 360px) {
+  #S_wrap {
+    min-height: 120vh;
+  }
+}
+@media screen and (max-width: 390px) {
+  #S_wrap {
+    min-height: 130vh;
+    zoom: 50%;
+  }
+}

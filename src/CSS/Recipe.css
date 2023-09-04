@@ -1,0 +1,204 @@
+.ss_card {
+  display: flex;
+  margin-bottom: 3rem;
+  /* height: auto; */
+  text-align: left;
+  /* flex-wrap: wrap; */
+}
+#ss_iframe {
+  margin: 2rem;
+  width: 46rem;
+  height: 25.8rem;
+  border-radius: 1rem;
+}
+.ss_video {
+  margin-top: 2.1rem;
+  height: 30rem;
+  display: grid;
+}
+.ss_video p {
+  margin-top: -1.5rem;
+  margin-right: 2rem;
+  text-align: end;
+}
+
+.ss_ingredient_child {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-right: 1rem;
+  grid-gap: 2rem;
+  margin-left: 2rem;
+  padding-bottom: 2rem;
+}
+.ss_ingredients h3 {
+  margin-left: 1.5rem;
+  margin-bottom: 0.5rem;
+  padding-top: 1rem;
+}
+
+.ss_ingredients {
+  margin-top: 1rem;
+  border-radius: 1rem;
+  backdrop-filter: blur(4px);
+  background-color: rgba(252, 241, 241, 0.252);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  color: #000;
+}
+
+.ss_data {
+  margin: 0rem 0rem -6rem -3rem;
+
+  /* height: 100vh; */
+  overflow-y: scroll;
+  overflow-x: hidden;
+  /* width:53%; */
+  /* width: 46.5rem; */
+}
+
+.ss_data::-webkit-scrollbar {
+  display: none;
+}
+
+.ss_data-child {
+  margin-top: 1.5rem;
+  margin-left: 3.5rem;
+  margin-right: 2.2rem;
+}
+.ss_item {
+  margin-left: 0.2rem;
+}
+
+.ss_recipe {
+  backdrop-filter: blur(4px);
+  background-color: rgba(252, 241, 241, 0.252);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  color: #000;
+  border-radius: 1rem;
+
+  margin-top: 2rem;
+  margin-bottom: 6rem;
+  padding: 1rem;
+}
+.ss_recipe h3 {
+  margin-top: 0;
+  padding-left: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.ss_recipe p {
+  line-height: 1.563rem;
+}
+.ss_recipe span {
+  padding: 0.4rem;
+}
+#ss_add {
+  margin: 0 2rem 0 2rem;
+  background-color: rgb(166, 91, 0);
+  border-radius: 0.5rem;
+  z-index: 9;
+}
+.starss {
+  display: flex;
+  float: right;
+}
+
+@media screen and (max-width: 1200px) {
+  .ss_card {
+    flex-direction: column;
+  }
+  #ss_iframe {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    /* height: 100%; */
+    /* height: 16rem; */
+  }
+
+  .ss_data {
+    margin-left: 0rem;
+  }
+}
+@media screen and (max-width: 570px) {
+  #ss_iframe {
+    height: 60%;
+    position: relative;
+  }
+  .ss_video p {
+    margin-top: -5rem;
+  }
+  #ss_add {
+    margin-top: -8rem;
+    height: 2rem;
+    margin: none;
+  }
+  .ss_ingredient_child {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 2rem;
+  }
+
+  .ss_data {
+    margin-left: -1rem;
+    margin-top: -14rem;
+  }
+  .starss {
+    float: left;
+    padding-top: 3rem;
+  }
+  .ss_ingredients {
+    margin-top: 4rem;
+  }
+}
+@media screen and (max-width: 355px) {
+  #ss_iframe {
+    height: 50%;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  #ss_iframe {
+    zoom: 80%;
+  }
+  .ss_data-child h2 {
+    font-size: 1.4rem;
+  }
+  .ss_video p {
+    font-size: 0.87rem;
+  }
+}
+@media screen and (max-width: 285px) {
+  #ss_iframe {
+    zoom: 55%;
+  }
+  .ss_data-child h2 {
+    font-size: 1rem;
+  }
+  .ss_video p {
+    font-size: 0.77rem;
+  }
+  #ss_add {
+    margin-top: -11rem;
+    font-size: 0.7rem;
+  }
+  .ss_ingredient_child {
+    font-size: 0.8rem;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .ss_data {
+    margin-top: -19.5rem;
+  }
+  .starss {
+    padding-top: 2rem;
+  }
+  .ss_ingredients {
+    margin-top: 3rem;
+  }
+}
+@media screen and (max-width: 250px) {
+  .ss_video p {
+    font-size: 0.59rem;
+  }
+}
