@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.15bc1935.css",
-    "main.js": "/static/js/main.6f9be824.js",
-    "static/js/787.a2160f3d.chunk.js": "/static/js/787.a2160f3d.chunk.js",
-    "static/media/dibya.jpg": "/static/media/dibya.6c6307de2ecd029891cf.jpg",
-    "static/media/somu.jpg": "/static/media/somu.c5a20f3603b352c882c7.jpg",
-    "static/media/gomu.webp": "/static/media/gomu.fc8a00e6d4fbb6978036.webp",
-    "static/media/nakina.jpg": "/static/media/nakina.2abc0fd716ce82baf9fe.jpg",
-    "static/media/res_d1.png": "/static/media/res_d1.f1093cd7350d6bf25f49.png",
-    "static/media/after.png": "/static/media/after.d2323def5eb81b672989.png",
-    "static/media/Untitled design (2).png": "/static/media/Untitled design (2).7471ecb5b5777182a87a.png",
-    "static/media/Untitled design (1).png": "/static/media/Untitled design (1).1a248e6dce1992dd62b8.png",
-    "static/media/arjya.jpg": "/static/media/arjya.71c47649b41ac61698e8.jpg",
-    "static/media/res_d2.png": "/static/media/res_d2.ceadf0bcbad94698a1f4.png",
-    "static/media/default_profile_image.png": "/static/media/default_profile_image.142efeaa54ab57d40a4a.png",
-    "static/media/sanskar.jpg": "/static/media/sanskar.a0bbaa320d74f5c12b81.jpg",
-    "static/media/before.png": "/static/media/before.5cfdad594a81f5098176.png",
-    "static/media/cookify_Logo.png": "/static/media/cookify_Logo.cc54428ee285f3f5a98b.png",
-    "index.html": "/index.html",
-    "main.15bc1935.css.map": "/static/css/main.15bc1935.css.map",
-    "main.6f9be824.js.map": "/static/js/main.6f9be824.js.map",
-    "787.a2160f3d.chunk.js.map": "/static/js/787.a2160f3d.chunk.js.map"
+    "main.css": "/Cookify/static/css/main.af94ae8a.css",
+    "main.js": "/Cookify/static/js/main.f278e25a.js",
+    "static/js/787.a2160f3d.chunk.js": "/Cookify/static/js/787.a2160f3d.chunk.js",
+    "static/media/dibya.jpg": "/Cookify/static/media/dibya.6c6307de2ecd029891cf.jpg",
+    "static/media/somu.jpg": "/Cookify/static/media/somu.c5a20f3603b352c882c7.jpg",
+    "static/media/gomu.webp": "/Cookify/static/media/gomu.fc8a00e6d4fbb6978036.webp",
+    "static/media/nakina.jpg": "/Cookify/static/media/nakina.2abc0fd716ce82baf9fe.jpg",
+    "static/media/res_d1.png": "/Cookify/static/media/res_d1.f1093cd7350d6bf25f49.png",
+    "static/media/after.png": "/Cookify/static/media/after.d2323def5eb81b672989.png",
+    "static/media/Untitled design (2).png": "/Cookify/static/media/Untitled design (2).7471ecb5b5777182a87a.png",
+    "static/media/Untitled design (1).png": "/Cookify/static/media/Untitled design (1).1a248e6dce1992dd62b8.png",
+    "static/media/arjya.jpg": "/Cookify/static/media/arjya.71c47649b41ac61698e8.jpg",
+    "static/media/res_d2.png": "/Cookify/static/media/res_d2.ceadf0bcbad94698a1f4.png",
+    "static/media/default_profile_image.png": "/Cookify/static/media/default_profile_image.142efeaa54ab57d40a4a.png",
+    "static/media/sanskar.jpg": "/Cookify/static/media/sanskar.a0bbaa320d74f5c12b81.jpg",
+    "static/media/before.png": "/Cookify/static/media/before.5cfdad594a81f5098176.png",
+    "static/media/cookify_Logo.png": "/Cookify/static/media/cookify_Logo.cc54428ee285f3f5a98b.png",
+    "index.html": "/Cookify/index.html",
+    "main.af94ae8a.css.map": "/Cookify/static/css/main.af94ae8a.css.map",
+    "main.f278e25a.js.map": "/Cookify/static/js/main.f278e25a.js.map",
+    "787.a2160f3d.chunk.js.map": "/Cookify/static/js/787.a2160f3d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.15bc1935.css",
-    "static/js/main.6f9be824.js"
+    "static/css/main.af94ae8a.css",
+    "static/js/main.f278e25a.js"
   ]
 }
