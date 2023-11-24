@@ -17,6 +17,7 @@ The website includes pages such as-
 - JSON
 - CSS
 
+
 ### Packages / Scripts used:
 - Getting Started with Create React App:: `npx create-react.app@latest Recipe-Book`
 - Install json server:: `npm i json-server` and `npm install -g json-server`
