@@ -1,3 +1,26 @@
+
+
+
+
+
+
+
+
+## Tutorial video/Sample Output:  
+
+
+
+https://github.com/Dibya1771/Cookify/assets/108383867/8f2162a9-b951-4a15-99d2-56761d377211  
+
+
+https://github.com/Dibya1771/Cookify/assets/108383867/f402a7d9-987f-4974-bb3c-6d6d5690e36d  
+
+
+
+https://github.com/Dibya1771/Cookify/assets/108383867/5809828d-1735-4e7e-91e2-f71dcdb94017  
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
